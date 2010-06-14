@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'iGallery' target in the 'iGallery' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
