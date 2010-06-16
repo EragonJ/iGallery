@@ -11,9 +11,12 @@
 @implementation fetchController
 @synthesize myURL;
 @synthesize myImage;
--(void) work
+-(void) work:(id)img
 {
 	// Store the specific image at myImage
-	myImage = [[NSImage alloc]initWithContentsOfURL:myURL];
+	myImage = [[NSImage alloc] initWithContentsOfURL:myURL];
+	
+	// Call the submitController to assign fetch.myImage to self.img
+	[img setImage:[self myImage]];
 }
 @end

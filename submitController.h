@@ -8,8 +8,10 @@
 
 #import <Cocoa/Cocoa.h>
 
-
 @interface submitController : NSObject {
+	
+	// it's fetch object
+	id fetch;
 	NSImage* _ajaxImg;
 	IBOutlet NSTextField* url;
 	IBOutlet NSImageView* img;
@@ -17,5 +19,6 @@
 }
 -(IBAction) submit:(id)sender;
 -(void) ajaxToggle;
+-(id) init;
 @property (retain) NSImage* _ajaxImg;
 @end

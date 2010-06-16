@@ -1229,8 +1229,8 @@
 							<reference key="NSSuperview" ref="439893737"/>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSImageCell" key="NSCell" id="392392160">
-								<int key="NSCellFlags">67239424</int>
-								<int key="NSCellFlags2">33554432</int>
+								<int key="NSCellFlags">337772032</int>
+								<int key="NSCellFlags2">0</int>
 								<reference key="NSSupport" ref="732649723"/>
 								<int key="NSAlign">0</int>
 								<int key="NSScale">0</int>
@@ -3204,8 +3204,8 @@
 					<reference ref="9"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<reference ref="9"/>
-					<string>{{44, 142}, {573, 502}}</string>
-					<string>{{44, 142}, {573, 502}}</string>
+					<string>{{143, 110}, {573, 502}}</string>
+					<string>{{143, 110}, {573, 502}}</string>
 					<reference ref="9"/>
 					<string>{{33, 99}, {480, 360}}</string>
 					<string>{3.40282e+38, 3.40282e+38}</string>
@@ -3333,6 +3333,7 @@
 				<bool key="EncodedWithXMLCoder">YES</bool>
 				<object class="IBPartialClassDescription">
 					<string key="className">NSImageView</string>
+					<string key="superclassName">NSControl</string>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBUserSource</string>
 						<string key="minorKey"/>
@@ -3350,12 +3351,14 @@
 						<object class="NSMutableArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>ajaxImg</string>
+							<string>fetch</string>
 							<string>img</string>
 							<string>url</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>NSImageView</string>
+							<string>id</string>
 							<string>NSImageView</string>
 							<string>NSTextField</string>
 						</object>

@@ -12,7 +12,7 @@
 	NSURL* myURL;
 	NSImage* myImage;
 }
--(void) work;
+-(void) work:(id)img;
 @property (retain) NSURL* myURL;
 @property (retain) NSImage* myImage;
 @end
