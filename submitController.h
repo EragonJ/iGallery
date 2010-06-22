@@ -7,18 +7,28 @@
 //
 
 #import <Cocoa/Cocoa.h>
-
+#import "fetchController.h"
 @interface submitController : NSObject {
-	
+	int currentDegree;
 	// it's fetch object
-	id fetch;
-	NSImage* _ajaxImg;
+	fetchController* fetch;
+	NSString* savePath;
+	NSImage* displayedImage;
 	IBOutlet NSTextField* url;
 	IBOutlet NSImageView* img;
-	IBOutlet NSImageView* ajaxImg;
+	IBOutlet NSImageView* ajaxloader;
 }
 -(IBAction) submit:(id)sender;
--(void) ajaxToggle;
--(id) init;
-@property (retain) NSImage* _ajaxImg;
+-(IBAction) save:(id)sender;
+-(IBAction) load:(id)sender;
+-(IBAction) rotate:(id)sender;
+-(IBAction) next:(id)sender;
+-(IBAction) previous:(id)sender;
+-(IBAction) zoomIn:(id)sender;
+-(IBAction) zoomOut:(id)sender;
+-(IBAction) makeGrayScale:(id)sender;
+-(void) savePanelDidEnd:(NSSavePanel*)savePanel returnCode:(int)returnCode contextInfo:(void *) contextInfo;
+-(void) awakeFromNib;
+-(void) zoomAction:(id)ratio;
+@property (retain) NSString* savePath;
 @end

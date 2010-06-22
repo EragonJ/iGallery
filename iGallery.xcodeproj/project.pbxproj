@@ -8,16 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
-		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		9D1C0EB411CE230200410878 /* iGallery.icns in Resources */ = {isa = PBXBuildFile; fileRef = 9D1C0EB311CE230200410878 /* iGallery.icns */; };
+		9DA3F7AF11CC5B610029BC12 /* NSString-Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA3F7AE11CC5B610029BC12 /* NSString-Utilities.m */; };
+		9DA3FB0711CCB7650029BC12 /* ajax-loader.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9DA3FB0611CCB7650029BC12 /* ajax-loader.gif */; };
 		9DB4ABA411C742F9001B6A8F /* submitController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB4ABA311C742F9001B6A8F /* submitController.m */; };
 		9DB4ABA811C744DC001B6A8F /* fetchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB4ABA711C744DC001B6A8F /* fetchController.m */; };
-		9DB4D9DD11C764B700698D77 /* ajax-loader.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9DB4D9DC11C764B700698D77 /* ajax-loader.gif */; };
+		9DE8BB8611CDB8DD00117DD5 /* error.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE8BB8511CDB8DD00117DD5 /* error.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -27,11 +28,15 @@
 		32CA4F630368D1EE00C91783 /* iGallery_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iGallery_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* iGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D1C0EB311CE230200410878 /* iGallery.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = iGallery.icns; sourceTree = "<group>"; };
+		9DA3F7AD11CC5B610029BC12 /* NSString-Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString-Utilities.h"; sourceTree = "<group>"; };
+		9DA3F7AE11CC5B610029BC12 /* NSString-Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString-Utilities.m"; sourceTree = "<group>"; };
+		9DA3FB0611CCB7650029BC12 /* ajax-loader.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "ajax-loader.gif"; sourceTree = "<group>"; };
 		9DB4ABA211C742F9001B6A8F /* submitController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = submitController.h; sourceTree = "<group>"; };
 		9DB4ABA311C742F9001B6A8F /* submitController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = submitController.m; sourceTree = "<group>"; };
 		9DB4ABA611C744DC001B6A8F /* fetchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fetchController.h; sourceTree = "<group>"; };
 		9DB4ABA711C744DC001B6A8F /* fetchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fetchController.m; sourceTree = "<group>"; };
-		9DB4D9DC11C764B700698D77 /* ajax-loader.gif */ = {isa = PBXFileReference; explicitFileType = image.gif; path = "ajax-loader.gif"; sourceTree = "<group>"; };
+		9DE8BB8511CDB8DD00117DD5 /* error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = error.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +58,8 @@
 				9DB4ABA311C742F9001B6A8F /* submitController.m */,
 				9DB4ABA611C744DC001B6A8F /* fetchController.h */,
 				9DB4ABA711C744DC001B6A8F /* fetchController.m */,
+				9DA3F7AD11CC5B610029BC12 /* NSString-Utilities.h */,
+				9DA3F7AE11CC5B610029BC12 /* NSString-Utilities.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -107,9 +114,10 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				9DB4D9DC11C764B700698D77 /* ajax-loader.gif */,
+				9D1C0EB311CE230200410878 /* iGallery.icns */,
+				9DE8BB8511CDB8DD00117DD5 /* error.png */,
+				9DA3FB0611CCB7650029BC12 /* ajax-loader.gif */,
 				8D1107310486CEB800E47090 /* Info.plist */,
-				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
 			);
 			name = Resources;
@@ -167,9 +175,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
-				9DB4D9DD11C764B700698D77 /* ajax-loader.gif in Resources */,
+				9DA3FB0711CCB7650029BC12 /* ajax-loader.gif in Resources */,
+				9DE8BB8611CDB8DD00117DD5 /* error.png in Resources */,
+				9D1C0EB411CE230200410878 /* iGallery.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,20 +192,13 @@
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
 				9DB4ABA411C742F9001B6A8F /* submitController.m in Sources */,
 				9DB4ABA811C744DC001B6A8F /* fetchController.m in Sources */,
+				9DA3F7AF11CC5B610029BC12 /* NSString-Utilities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				089C165DFE840E0CC02AAC07 /* English */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
