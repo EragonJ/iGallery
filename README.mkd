@@ -1,0 +1,18 @@
+Introduction
+============
+
+It's an Mac application written in Obj-c that can help you modify your pic with some effects easily.
+
+Installation
+============
+
+No , just double click the icon :)
+
+USAGE
+=====
+	
+  Just build the debug version with XCode then run it!
+
+Snap
+====
+![img](http://images.plurk.com/3626549_0e1fd30c1c9f50d5998721c0edf526b4.jpg)
